@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView=findViewById(R.id.date);
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
         // Thor var her
+        // Henrik var også her
         String currentDateandTime = sdf.format(new Date());
         textView.setText(currentDateandTime);
     }
